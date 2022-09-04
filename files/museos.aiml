@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<!-- insert your AIML categories here -->
+<h1>Bienvenido</h1>
+<p>Ingresa la palabra "hola" para iniciar</p>
+<category>
+    <pattern>Cuáles son los museos cerca del zócalo</pattern>
+    <template>Algunos de ellos son:
+    <ol>
+        <li>-Museo de la Ciudad de Mexico</li>
+          <li>  -Museo del Estanquillo</li>
+            <li>-Museo Jose Luis Cuevas</li>
+            <li>-Museo de la SHCP</li>
+            <li>-Museo Nacional de las Culturas.</li>
+    </ol>
+    </template>
+</category>
+
+<category><pattern>Zocalo</pattern><template><srai>CUÁLES SON LOS MUSEOS CERCA DEL ZÓCALO</srai></template></category>
+
+
+<category>
+    <pattern>Cuáles museos son nuevos en la CDMX</pattern>
+    <template>Estos son los museos nuevos en la CDMX:
+    <ol>
+<li>-Cencalli</li>
+<li>-Pabellón Nacional de la Biodiversidad</li>
+<li>-MUFO</li>
+<li>-Museo Prehispánico Subterráneo</li>
+</ol>
+</template>
+</category>
+
+
+<category><pattern>Museos nuevos</pattern><template><srai>CUÁLES MUSEOS SON NUEVOS EN LA CDMX</srai></template></category>
+
+<category>
+    <pattern>Cuantos museos hay en la CDMX</pattern>
+    <template>En la CDMX hay exactamente 147 museos.</template>
+</category>
+
+<category><pattern>Museos</pattern><template><srai>CUANTOS MUSEOS HAY EN LA CDMX</srai></template></category>
+
+
+<category>
+    <pattern>Cuál es tu museo favorito</pattern>
+    <template>Mi museo favorito es el Soumaya, el cual se encuentra en Polanco</template>
+</category>
+
+<category><pattern>Museo favorito</pattern><template><srai>CUÁL ES TU MUSEO FAVORITO</srai></template></category>
+
+
+<category>
+    <pattern>Qué museo es gratis en CDMX</pattern>
+    <template>La mayoría son gratis en domingo</template>
+</category>
+
+<category><pattern>Gratis</pattern><template><srai>QUÉ MUSEO ES GRATIS EN CDMX</srai></template></category>
+
+
+<category>
+    <pattern>Qué museos están adheridos a la UNAM</pattern>
+    <template>Esos son algunos de ellos:
+<ol>
+<li>-Museo del Chopo</li>
+<li>-Universum</li>
+<li>-MUCA</li>
+<li>-MUCA-ROMA</li>
+<li>-Antiguo Colegio de San Idelfonso</li>
+<li>-Palacio de la Autonomía</li>
+<li>-Museo de la Medicina Mexicana</li>
+</ol>
+</template>
+</category>
+
+<category><pattern>UNAM</pattern><template><srai>QUÉ MUSEOS ESTÁN ADHERIDOS A LA UNAM</srai></template></category>
+
+
+
+<category>
+    <pattern>Qué museo son de ciencia y tecnología</pattern>
+    <template>Esos son algunos de ellos:
+    <ol>
+<li>-Universum</li>
+<li>-Museo de Geología</li>
+<li>-Museo de Historia Natural</li>
+<li>-Planetario Jose de la Herran</li>
+<li>-Museo de la Luz</li>
+</ol>
+</template>
+</category>
+
+<category><pattern>Ciencia</pattern><template><srai>QUÉ MUSEO SON DE CIENCIA Y TECNOLOGÍA</srai></template></category>
+
+
+<category>
+    <pattern>Qué museos son aptos para niños</pattern>
+    <template>Los siguientes museos son aptos para niños:
+<ol>
+    
+<li>-Kidzania</li>
+<li>-Papalote Museo del Niño</li>
+</ol>
+</template>
+</category>
+
+<category><pattern>Niños</pattern><template><srai>QUÉ MUSEOS SON APTOS PARA NIÑOS</srai></template></category>
+
+
+<category>
+    <pattern>Qué museos son de arte contemporáneo</pattern>
+    <template>Los mejores museos de arte contemporáneo son:
+    <ol>
+<li>-Museo Jumex</li>
+<li>-Museo Tamayo</li>
+<li>-Museo de Arte Moderno</li>
+<li>-Museo del Chopo</li>
+<li>-Ex Teresa Actual</li>
+</ol>
+</template>
+</category>
+
+<category><pattern>Arte</pattern><template><srai>QUÉ MUSEOS SON DE ARTE CONTEMPORÁNEO</srai></template></category>
+
+
+<category>
+    <pattern>Qué museos son interactivos</pattern>
+    <template>Los siguientes museos son interactivos:
+<ol>
+<li>-Museo Trick Eye</li>
+<li>-Universum</li>
+<li>-Museo del Chocolate</li>
+<li>-Museo del Perfume</li>
+<li>-Museo del Pulque</li>
+<li>-Museo de Cera</li>
+</ol>
+</template>
+</category>
+
+<category><pattern>Interactivos</pattern><template><srai>QUÉ MUSEOS SON INTERACTIVOS</srai></template></category>
+
+
+<category>
+    <pattern>Qué museos tienen descuento</pattern>
+    <template>En general, los museos brindan descuentos a estudiantes presentando tu credencial. Además, la mayoría de museos son gratis los domingos.</template>
+</category>
+
+<category><pattern>Descuento</pattern><template><srai>QUÉ MUSEOS TIENEN DESCUENTO</srai></template></category>
+
+<category>
+    <pattern>Páginas web de los museos</pattern>
+    <template>Estas son algunas de las páginas web
+<button>
+    <text>Mufo</text>
+    <url>https://mufo.io/</url>
+</button>
+<button>
+    <text>Papalote</text>
+    <url>https://www.papalote.org.mx/</url>
+</button>
+<button>
+    <text>Universum</text>
+    <url>https://www.universum.unam.mx/</url>
+</button>
+<button>
+    <text>Geología</text>
+    <url>https://www.geologia.unam.mx/igl/museo/</url>
+</button>
+<button>
+    <text>Chocolate</text>
+    <url>http://www.mucho.org.mx/</url>
+</button></template>
+</category>
+
+<category><pattern>Paginas</pattern><template><srai>PÁGINAS WEB DE LOS MUSEOS</srai></template></category>
+
+
+<category>
+    <pattern>Hola</pattern>
+    <template>Hola bienvenido al chatbot de museos de la CDMX dime, que pregunta tienes?
+Estas son algunas de las preguntas que ya tenemos prediseñadas:
+<ol>
+    <li>Cuáles museos son nuevos en la CDMX</li>
+    <li>Cuantos museos hay en la CDMX</li>
+    <li>Qué museos son de arte contemporáneo</li>
+    <li>Páginas web de los museos</li>
+    <li>Qué museos son interactivos</li>
+</ol>
+
+Tambien hay algunas palarbas claves que puedes poner para acceder a las respuestas como son: descuentos, Paginas, entre otras
+</template>
+</category>
+</aiml>
